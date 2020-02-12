@@ -1,0 +1,70 @@
+body{
+  background-color: beige;
+}
+h2 {
+  color:black
+}
+h3{
+  color:brown;
+}
+.First p {
+    background-color:green;
+  }
+.Second > p {
+    background-color: darkgray;
+  }
+.Third + p {
+    background-color: greenyellow;
+  }
+.Fourth ~ p {
+    background-color: goldenrod;
+  }
+p:empty
+  {
+    width: 100%;
+    height: 5px;
+    background: #496969;
+  }
+
+  a:hover{
+    color: rebeccapurple;
+  }
+  a:active{
+    color: greenyellow;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  a[target]
+  {
+    background-color: mediumseagreen;
+  }
+ 
